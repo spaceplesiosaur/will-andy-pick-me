@@ -22,11 +22,6 @@ var fortunes = [
 "Very doubtful."
 ]
 
-// function logFortunes() {
-//
-//   console.log(fortunes[2])
-//
-// };
 
 var answer = document.querySelector("#answer-text");
 var callButton = document.querySelector("#getButton");
@@ -44,6 +39,27 @@ function changeFortuneText() {
     // question-field.innerText = "Ask your question here!";
 };
 
-
-
 callButton.addEventListener("click", changeFortuneText);
+
+
+// Clear Button functionality
+
+var clearButton = document.querySelector("#button-to-clear");
+
+function clearButtonFunctionality() {
+  answer.classList.add("hidden");
+  questionText.classList.add("hidden");
+}
+
+clearButton.addEventListener("click", clearButtonFunctionality);
+
+// clear button disable
+
+// if/else statement
+
+// function getRidClear() {
+//   if {
+//     answer.innerText !== "";
+//     clearButton.classList.remove("clear-button-disabled");
+//   }
+// };

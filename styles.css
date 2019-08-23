@@ -15,11 +15,10 @@ clear button disabled: #D0CDCD
   border: solid 1px red;
 } */
 
-.whole-site {
+/* .whole-site {
 
   /* margin: 30px 100px 100px 300px; */
 
-}
 h1 {
 
   font: serif;
@@ -120,17 +119,25 @@ main {
 
 }
 
+/* button.clear-button-disabled {
+
+  .clear-button {
+    background-color: #D0CDCD;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+
+  }
+} */
+
 .section2-woody {
 
   width: 50%;
   text-align: center;
-
-
-}
-
-.woody-pic-class {
-  /* width: 100%;
-  padding-right: 100px;
-  padding-left: 100px; */
 
 }
