@@ -10,3 +10,103 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+/* * {
+  border: solid 1px red;
+} */
+
+.whole-site {
+
+  /* margin: 30px 100px 100px 300px; */
+
+}
+h1 {
+
+  font: serif;
+  text-align: center;
+  font-family: cursive;
+  color: #607AA0;
+  font-size: 300%;
+}
+main {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.section1-eightball {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  text-align: center;
+  background-color: #E6ECF4;
+
+  /* height: 710px; */
+
+
+}
+
+.textform-and-button {
+
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+
+}
+
+.question-enter-feild {
+
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.get-answer-button {
+
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2B4E80;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16pt;
+  color: white;
+}
+
+.get-answer-button:hover {
+
+  background-color: #1C3455;
+
+}
+
+.eightball-class {
+
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.clear-button {
+  background-color: #DE4841;
+  margin-top: 75px;
+  margin-bottom: 5px;
+  align-self: flex-end;
+}
+
+.section2-woody {
+
+  width: 50%;
+  text-align: center;
+
+
+}
+
+.woody-pic-class {
+  /* width: 100%;
+  padding-right: 100px;
+  padding-left: 100px; */
+
+}
