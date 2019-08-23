@@ -12,11 +12,13 @@
       <main>
         <section class = "section1-eightball">
           <section class = "textform-and-button">
-            <input type = text class = "question-enter-feild" value = "Ask your question here!"></input>
-            <button class = "get-answer-button">Get your answer</button>
+            <input type = text class = "question-enter-feild" value = "Ask your question here!" id = "question-field"></input>
+            <button class = "get-answer-button" id = "getButton">Get your answer</button>
           </section>
           <section class = "eightball-pic">
-            <img src = "assets/eight-ball.png" class = "eightball-class"></img>
+            <img src = "assets/eight-ball.png" class = "eightball-class" id = "eightball-picture"></img>
+            <p class = "question" id = "question-text"></p>
+            <p class = "answer" id = "answer-text"></p>
           <section class = "clearbutton"></section>
             <button class = "clear-button">Clear</button>
           </section>
@@ -27,4 +29,5 @@
       </main>
     </section>
   </body>
+  <script src = index.js></script>
 </html>
